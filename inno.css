@@ -1,0 +1,811 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------------header--------*/
+#header2{
+    font-family: 'Poppins', sans-serif;
+    height: 120%;
+      background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/img7.jpg); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding-top: 40px;
+      text-align: center;
+      color:rgb(212, 208, 208);
+  }
+  .text1 {
+    position: relative;
+    z-index: 10;
+  
+  
+  }
+  
+  .text1 h3 {
+    margin-left: -20px;
+    margin-top: -110px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  
+  }
+  
+  .text1 h2 {
+    margin-left: -20px;
+    margin-top: 2px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  
+  }
+  
+  .text1 p {
+    margin-left: -20px;
+    margin-top: 2px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  
+  }
+  
+  
+   .logo {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    right:350px;
+    top:-25px;
+  
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+    /* top: 0;
+      left: 0;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 120px;*/
+  }
+  .h11{
+    font-size:2.5em;
+    font-weight: 400;
+    color:rgb(212, 208, 208);
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .para2{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 70px;
+    padding-left:80px;
+    padding-right:100px;
+    font-size: 2.0em;
+    font-weight: 1;
+    font-style: italic;
+    color:rgb(212, 208, 208);
+    line-height: 1.5em;
+    text-align: center;
+  }
+    .a3 {
+        position: relative;
+        top: 500px;
+        left: 500px;
+        display: inline-block;
+        font-size: 1.2em;
+        background: rgba(49, 48, 48, 0);
+        padding: 10px 25px;
+        color:white;
+        border-color:cornsilk;
+        border-radius: 8px;
+        border-radius: 900 !important;
+    border:0.2rem solid !important;
+    border-color:black;
+        
+  
+      }
+      .a3:hover{
+        background: rgba(49, 48, 48, 0.39);
+        color:rgb(255, 255, 255);
+
+      }
+ 
+.img1{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863));
+}
+/*---------------header ends--------*/
+
+/*---------------winners List--------*/
+#about
+{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/img7.jpg); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.table{
+  margin-left: 0px;
+   width: 70%;
+   border-collapse: collapse;
+}
+
+.table td,.table th{
+   background-color: rgba(255, 255, 255, 0.5);
+ padding:102px 15px;
+ border:1px solid #ddd;
+ text-align: center;
+ font-size:16px;
+ 
+ color:#1a1a1a;
+}
+
+.table th{
+   background-color: #1a1a1a;
+   color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+   background-color: rgba(65, 60, 60, 0.842);
+   color:#ffffff;
+}
+
+/*responsive*/
+
+.head1{
+    color:aliceblue !important;
+}
+.head{
+    color:aliceblue !important;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+/*___________Team Members-----------*/
+#team
+{
+   padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul
+{
+  padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
+/*------------Promo--------*/
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+
+/*------------Get in Touch--------*/
+#contact
+{
+  
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/keyboard1.jpg); 
+    color: #777;
+}
+.contact-form
+{
+    padding: 105px;
+}
+.form-control
+{
+    border-radius: 900 !important;
+    border:0.2rem solid !important;
+    border-color:black;
+}
+.form-control:hover{
+  border:0.4rem solid !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+  background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #73ff00;
+    font-weight: bold;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin-top: -430px;
+  margin-left: 650px;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    position: relative;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  left:330px;
+ 
+  margin: 10 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:770px) {
+
+/*---------------header--------*/
+#header2{
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width:100%
+  background-image:url(images/img7.jpg);
+    
+}
+.text1 {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 10;
+
+
+}
+
+.text1 h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 30px;
+  margin-top: -110px;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+
+}
+
+.text1 h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 30px;
+  margin-top: 2px;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+
+}
+
+.text1 p {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 0px;
+  margin-top: 2px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-style:bold;
+
+}
+
+
+
+  .logo {
+      position:fixed;
+      top:90px;
+      margin:20px 0;
+      display:inline-block;
+  }
+.h11{
+  font-family: 'Poppins', sans-serif;
+  font-size:1.5em;
+  font-weight: 400;
+  color:rgb(212, 208, 208);
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style:bold;
+  margin-top:10px;
+  
+}
+
+.para2{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+ margin-top: 70px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:0.9em;
+  font-weight: 1;
+  font-style: italic;
+  color:rgb(212, 208, 208);
+  line-height: 1.5em;
+  text-align: center;
+}
+  .a3 {
+    font-family: 'Poppins', sans-serif;
+      position: relative;
+      width:20%;
+      top: 400px;
+      left: 120px;
+      display: inline-block;
+      font-size: 0.9em;
+      background: rgba(31, 30, 30, 0);
+      padding: 5px  4px;
+      color:white;
+      border-color:pink !important;
+      border-radius: 8px;
+      border-radius: 900 !important;
+  border:0.2rem solid !important;
+  border-color:black;
+      
+
+    }
+    .a3:hover{
+      background: rgba(49, 48, 48, 0.39);
+      color:rgb(255, 255, 255);
+
+    }
+
+.img1{
+  background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863));
+}
+/*---------------header ends--------*/
+
+/*---------------winners List--------*/
+#about
+{
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/img7.jpg); 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media(max-width: 500px){
+   
+
+  *
+{
+    margin: 0;
+    padding: 0;
+}
+#winner{
+  height:750vh;
+   background-image: url(images/tower.jpg);
+   background-position: center;
+   background-size: cover;
+
+}
+
+   .table thead{
+       display: none;
+       height: 40px;
+       color:black !important;
+   }
+
+   .table, .table tbody, .table tr, .table th, .table td{
+       display: block;
+       width: 95%;
+       margin-left: 5px;
+       color:black !important; 
+       
+   }
+   .table tr{
+       margin-bottom:15px;
+       color:black !important;
+   }
+   .table td{
+       text-align: right;
+       padding-left: 50%;
+       text-align: right;
+       position: relative;
+       color:black !important;
+   }
+   .table td::before{
+       content: attr(data-label);
+       position: absolute;
+       left:0;
+       width: 50%;
+       padding-left:15px;
+       font-size:15px;
+       font-weight: bold;
+       text-align: left;
+       color:rgb(41, 39, 39) !important;
+   }
+}
+
+
+.head1{
+  color:aliceblue !important;
+}
+.head{
+  color:aliceblue !important;
+}
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress-bar
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px !important;
+  margin-bottom: 20px;
+}
+
+/*___________Team Members-----------*/
+#team
+{
+ padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+h1
+{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.profile-pic
+{
+  margin-top: 25px;
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h2
+{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff !important;
+}
+.profile-pic h3
+{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa
+{
+  height: 25px;
+  width: 25px;
+  color: #007bff !important;
+  background: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+.img-box ul
+{
+padding: 15px 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.img-box ul li
+{
+  padding: 5px;
+  display: inline-block;
+}
+.img-box:hover ul
+{
+  opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+  transition: 0.5s;
+}
+/*------------Promo--------*/
+#promo
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/promo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-size: 38px;
+}
+
+/*------------Get in Touch--------*/
+#contact
+{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/keyboard1.jpg); 
+  color: #777;
+}
+.contact-form
+{
+  padding: 15px;
+}
+.form-control
+{
+  border-radius: 900 !important;
+  border:0.2rem solid !important;
+  border-color:black;
+}
+.form-control:hover{
+border:0.4rem solid !important;
+}
+::placeholder
+{
+  color: #999 !important;
+}
+.follow
+{
+background: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-info .fa
+{
+  margin: 10px;
+  color: #73ff00;
+  font-weight: bold;
+}
+#ss{
+  display:none;
+}
+@media (max-width:460px) {
+  
+}
+/* original logo here */
+.logo {
+  position:relative;
+  width:15%;
+  height:10%;
+  top:-40px;
+  left:-140px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
